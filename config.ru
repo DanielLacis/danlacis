@@ -9,7 +9,7 @@ map "/" do
         'Content-Type' => 'text/html',
         'Cache-Control' => 'public, max-age=86400'
       },
-      File.open('public/index.html', File::RDONLY)
+      File.open('public/html/index.html', File::RDONLY)
     ]
   }
 end
@@ -22,7 +22,7 @@ map "/about" do
         'Content-Type' => 'text/html',
         'Cache-Control' => 'public, max-age=86400'
       },
-      File.open('public/about.html', File::RDONLY)
+      File.open('public/html/about.html', File::RDONLY)
     ]
   }
 end
