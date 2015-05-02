@@ -1,5 +1,5 @@
 require 'newrelic_rpm'
-
+NewRelic::Agent.manual_start
 use Rack::Static,
   :urls => ["/images", "/js", "/css"],
   :root => "public"
