@@ -1,3 +1,18 @@
 div#main {
   margin-left: 15px;
 }
+
+img.index-project-image {
+  max-width: 100%;
+  border-radius: 5px;
+  border: solid 1px black;
+}
+
+p.project-description {
+  font-size: 1.3em;
+  margin: 0;
+}
+
+a.project-link {
+  font-size: 1.3em;
+}
