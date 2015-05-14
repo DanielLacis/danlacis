@@ -20,3 +20,11 @@ a.project-link {
 p.about-description {
   font-size: 1.3em;
 }
+
+.navbar {
+  background-color: #aef;
+}
+
+.navbar > a {
+  color: black;
+}
