@@ -28,3 +28,19 @@ p.about-description {
 .navbar > a {
   color: black;
 }
+
+p#phone {
+  font-size: 1.3em;
+}
+
+p#email {
+  font-size: 1.3em;
+}
+
+a#linkedin {
+  font-size: 1.3em;
+}
+
+label.contact {
+  font-size: 1.3em;
+}
